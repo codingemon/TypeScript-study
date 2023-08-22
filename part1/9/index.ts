@@ -54,7 +54,7 @@ if (이미지 instanceof HTMLImageElement) {
 // 에러남
 // let pageChange = document.querySelector(".naver");
 // if (pageChange instanceof HTMLAnchorElement) {
-//   pageChange.href = "https://kakao.com";
+//   pageChange.href = "https://kakao.com";ss
 // }
 
 let 링크 = document.querySelector(".naver");
