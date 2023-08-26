@@ -87,7 +87,7 @@ type UserType = {
   함수2({ user : 'kim', comment : [3,5,4], admin : false }) 
 
 //   (숙제3) 이렇게 생긴 array 자료를 파라미터로 입력할 수 있는 함수를 만들어봅시다. 
-// 어떻게 코드를 짜야할까요?
+// 어떻게 코드를 짜야할까요???
 // (조건1) 오늘 배운 파라미터 destructuring 문법을 써봅시다.
 // (조건2) 함수실행시 입력한 파라미터들을 전부 콘솔창에 출력해줘야합니다.
 type Array = (number|string|boolean)[];
