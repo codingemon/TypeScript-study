@@ -1,6 +1,6 @@
 // typeof 연산자로는 부족하다
 // null & undefined 타입체크하는 경우 매우 잦음
-// 익슉하지 않다면 if/esle 쓰는게 명확하고 좋음
+// 익슉하지 않다면 if/esle 쓰는게 명확하고 좋음.
 // function 함수(a:string | undefined){
 //   // 1. && 연산자로 null & undefined 타입체크하기
 //   // a가 undefined면 if문 실행 x
