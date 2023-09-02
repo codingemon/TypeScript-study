@@ -40,7 +40,7 @@ class User1 {
 let 자식 = new User1();
 console.log(자식); // {x:10, y:25} => static 부여하면 x는 사라짐.(자식들이 물려받지 못함)
 console.log(자식.x); // 없음
-console.log(User1.x); // 됨 부모만 가져다가 쓸수 있음
+console.log(User1.x); // 됨 부모만 가져다가 쓸수 있음.
 
 // 어디다가 활용할까?
 class User2 {
