@@ -40,6 +40,7 @@ function 함수3<MyType2 extends LengthCheck>(x: MyType2) {
 }
 
 let a = 함수3<string[]>(["100"]);
+
 // 오늘 배운 내용
 // 1. 함수에 타입파라미터 넣을 수 있음
 // 2. extends 키워드로 넣을 수 있는 타입 제한가능
