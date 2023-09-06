@@ -18,7 +18,7 @@ function App() {
   );
 }
 
-// 3.componet 만들 때 타입지정
+// 3.componet 만들 때 타입지정.
 // 함수 타입지정은 파라미터 & return 값
 // 4. component props 타입지정
 // props 잘못 전달해서 에러가 잦음
