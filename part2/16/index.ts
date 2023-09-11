@@ -39,5 +39,5 @@ type c = Person<string>;
 type 타입추출<T> = T extends () => infer R ? R : unknown;
 type d = 타입추출<() => void>;
 
-// => ReturnType 이라는 기본 함수 쓰면 알아서 해줌
+// => ReturnType 이라는 기본 함수 쓰면 알아서 해줌..
 type f = ReturnType<() => void>;
