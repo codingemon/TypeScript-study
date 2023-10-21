@@ -35,9 +35,9 @@ type c = Person<string>;
 // type d = 타입추출<string[]>
 
 // infer키워드 예시3
-// 함수를 넣으면 함수의 return 타입만 뽑고싶다
+// 함수를 넣으면 함수의 return 타입만 뽑고싶다.
 type 타입추출<T> = T extends () => infer R ? R : unknown;
 type d = 타입추출<() => void>;
 
-// => ReturnType 이라는 기본 함수 쓰면 알아서 해줌..
+// => ReturnType 이라는 기본 함수 쓰면 알아서 해줌.
 type f = ReturnType<() => void>;
