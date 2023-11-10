@@ -81,7 +81,7 @@ let 상품: Samsung = {
   model: ["Tv", "phone"],
 };
 
-// 숙제2) array 안에 object 여러개가 필요합니다.
+// 숙제2) array 안에 object 여러개가 필요합니다
 interface Cart {
   product: string;
   price: number;
