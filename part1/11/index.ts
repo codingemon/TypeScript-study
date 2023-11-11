@@ -62,7 +62,7 @@ interface Teacher extends Student {
 let 학생: Student = { name: "kim" };
 let 선생: Teacher = { name: "lee", age: 31 };
 
-// & 쓸때 중복속성 발생하면?
+// & 쓸때 중복속성 발생하면???
 // 미리 에러안나서 주의
 // & 는 합치는게 아니라 왼쪽 오른쪽 둘 다 만족하는 타입임
 type Animal = { name: string };
