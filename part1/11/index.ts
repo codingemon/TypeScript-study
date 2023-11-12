@@ -52,7 +52,7 @@ let 네모 = { color: "red", width: 100 };
 
 // extends 쓸 때 중복속성 발생하면?
 // 에러로 잡아줌
-// interface가 조금 더 안전하다.
+// interface가 조금 더 안전하다
 interface Student {
   name: string;
 }
