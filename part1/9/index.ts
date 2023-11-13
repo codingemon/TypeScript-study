@@ -21,7 +21,7 @@
 // let 제목 = document.querySelector("#title") as Element;
 //   제목.innerHTML = "반가워요";
 
-// 4. 오브젝트에 붙이는 ?.
+// 4. 오브젝트에 붙이는 ?
 // 1) 제목에 innerHTML이 있으면 출력해주고
 // 2) 없으면 undefined 뱉어주세요
 // optional chaining 문법
