@@ -13,7 +13,7 @@
 // let 사람 = NewUser();
 // console.log(사람) // x:10
 
-// 키워드 하나 배워보기
+// 키워드 하나배워보기
 // protected
 // private, protected 붙이면 class{}안에서만 사용가능
 class User {
