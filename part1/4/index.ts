@@ -28,7 +28,7 @@ function 함수2(x? :number) :void {
 // console.log(x + 3) => 에러 발생
 // }
 
-// 네로인하자
+// 네로인 하자
 function 함수3(x : number|string){
   if(){
     console.log(x + 3)
