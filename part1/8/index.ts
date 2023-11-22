@@ -16,6 +16,7 @@ let 함수: 함수타입 = function (a) {
 
 // 회원정보.plusOne()
 // Q.object안의 함수 타입지정은 어떻게?
+
 // 파라미터 하나는 number
 // return 값은 number
 // let 회원정보 = {
