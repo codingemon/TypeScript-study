@@ -47,7 +47,6 @@ let married: boolean = false;
 let 철수: [string, undefined | number, boolean] = [user, age, married];
 
 // (숙제2) 학교라는 변수에 타입지정해보십시오.
-
 let 학교: {
   score: (number | boolean)[];
   teacher: string;
