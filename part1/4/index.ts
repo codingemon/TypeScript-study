@@ -39,13 +39,13 @@ function 함수3(x : number|string){
 // 아무것도 파라미터로 입력하지 않고 함수를 사용하면 "이름이 없습니다" 를 출력하는 함수를 만들어봅시다.
 // 파라미터와 return 타입지정도 잘 해봅시다. 
 
-function hello(x? :string){
-  if(x){
-    console.log('안녕하세요' + x)
-  } elso {
-    console.log('이름이 없습니다.')
-  }
-}
+// function hello(x? :string){
+//   if(x){
+//     console.log('안녕하세요' + x)
+//   } elso {
+//     console.log('이름이 없습니다.')
+//   }
+// }
 
 // (숙제2) 함수에 숫자 또는 문자를 집어넣으면 자릿수를 세어 출력해주는 함수를 만들어보십시오.
 // 예를 들어 '245' 이런 문자를 입력하면 3이 return 되어야합니다.
