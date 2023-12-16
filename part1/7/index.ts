@@ -8,7 +8,7 @@ let 이름: "kim"; // kim이라는 문자만 들어올 수 있음
 // 자동완성도 가능
 let 나예요: "choi" | "커플";
 나예요 = "choi";
-// 함수도 되나 테스트 => 잘된다.
+// 함수도 되나 테스트 => 잘된다
 function 함수(a: "Hello") {}
 함수("Hello");
 function 함수1(a: "Hello"): 1 | 0 {
