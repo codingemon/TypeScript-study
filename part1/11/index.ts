@@ -57,7 +57,7 @@ interface Student {
   name: string;
 }
 interface Teacher extends Student {
-  name: number;
+  age: number;
 }
 let 학생: Student = { name: "kim" };
 let 선생: Teacher = { name: "lee", age: 31 };
